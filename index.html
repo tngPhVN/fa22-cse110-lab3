@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Thanh Phan">
+    <title> Thanh's Meeting Minutes CSE110</title>
+    <link rel="icon" type="image/png" href="https://www.kindpng.com/picc/m/5-53567_collection-of-lavender-butterfly-clipart-high-quality-cute.png">
+  </head>
+  <body>
+    <div>
+      <img class="meeting-theme"
+           src="https://fellow.app/wp-content/uploads/2022/03/meeting-intros-1.jpg"
+           width="700"
+           height="400">
+    </div>
+    <header class="page-welcome">
+      <h1>Welcome!</h1>
+      <audio controls src="motivational-ident-main-9923.mp3">Greeting sound.</audio>
+    </header>
+    <hr>
+    <main>
+      <nav>
+        <a href="#summary">Summary</a> |
+        <a href="#date">Date</a> |
+        <a href="#attendance-absent">Attendance/Absent</a> |
+        <a href="#agenda">Agenda</a> |
+        <a href="#previous-meeting">Previous Meeting</a> |
+        <a href="#new-meeting">New Meeting</a> |
+        <a href="#concern">Concern</a> |
+        <a href="#author">Author</a>
+      </nav>
+
+      <h2><span style="border: 1px solid rgb(212, 140, 247)">Team 36</span> First Meeting</h2>
+      <section id="summary"">
+        <details>
+          <summary><h3>Summary:</h3></summary>
+            Team introduction and logistic.
+        </details>
+      </section>
+    
+      <section id="date">
+        <h3>Date: <input type="date"></h3>
+      </section>
+
+      <section>
+        <h3>Location:</h3>
+                     WLH201, UCSD,<br>
+                     La Jolla,<br>
+                     CA 92093
+      </section>
+
+      <section id="attendance-absent">
+        <h3>Attendance:</h3>
+        <ul>
+                <li><b class="position">Manager</b> Allison Turner</li>
+                <li>Triston Babers</li>
+                <li>Meron Asfaw</li>
+                <li>Rappel Ricafort</li>
+                <li>Andrew Schade</li>
+                <li>Miko Brown</li>
+                <li>Duc Vo</li>
+                <li>Thanh Phan</li>
+                <li>Justin Lau</li>
+        </ul>
+
+        <h3>Absent:</h3>
+        <ul>
+            <li>Julia Le</li>
+            <li>Jiancheng Liang</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h3>Agenda:</h3>
+        <ol> 
+            <li>Team members self-introduction and get-to-know</li>
+            <li>Team lead explains a brief plan of the overall goal for this course</li>
+        </ol>
+      </section>
+
+      <section id="previous-meeting">
+        <h3>Business From Previous Meeting:</h3>None 
+      </section>
+
+      <section id="new-meeting">
+        <h3>New Business:</h3>
+        <ol>
+            <li>Decide the <em>Team's name</em></li>
+            <li><strong>Decide the official time for the "All Hands Meeting"</strong></li>
+        </ol>
+      </section>
+
+      <section id="concern">
+        <h3>Concern:</h3>
+        <ul>
+            <li>Few members have not joined our <i>Team Slack</i></li>
+        </ul>
+      </section>
+
+      <section id="author">
+        <h3>Submitted by:<a href="mailto:tnphan@ucsd.edu">Thanh Phan</a></h3>
+      </section>
+
+    </main>
+
+    <hr>
+    <p>After meeting to-do list:</p>
+    <form>
+      <fieldset>
+        <input type="radio" id="team's-name">
+        <label for="team's-name">Team's Name:</label>
+        <textarea id="team's-name" rows="1" cols="20"></textarea><br>
+        <input type="checkbox" id="official-time">
+        <label for="official-time">Team Official Meeting Time</label>
+        <input list="available-time" id="official-time">
+        <datalist id="available-time">
+          <option value="Tue 2:00 pm"></option>
+          <option value="Tue 3:00 pm"></option>
+          <option value="Fri 4:00 pm"></option>
+        </datalist>  
+      </fieldset>
+    <br>
+    <button class="Agreement"
+            type="button">
+          Agree with the above suggestions
+    </button>
+    <label for="name-reader">Please sign your full name:</label>
+    <select name="title" id="title">
+      <option value="mr">Mr.</option>
+      <option value="mrs">Mrs.</option>
+      <option value="ms">Ms.</option>
+      <option value="mx">Mx.</option>
+    </select>
+    <input type="text" id="name-reader" name="name-reader" required>
+
+    <figure>
+      <figcaption>Thank you for reading:</figcaption>
+    <video controls width="500">
+      <source src="thank you.mp4" type="video/mp4">
+    </video>
+    
+    <footer>
+    <p>© 2022 Thanh Phan</p>
+    </footer>
+  </body>
+</html>
