@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-https://tngphvn.github.io/Lab2_Starter/
+https://tngphvn.github.io/fa22-cse110-lab3/
