@@ -19,3 +19,18 @@ body {
     margin-right: 300px;
     margin-left: 300px;
 }
+
+h2{
+    text-align: center;
+    padding-top: 10mm;
+    padding-right: 10mm;
+    padding-bottom: 10mm;
+    padding-left: 10mm;
+    position: sticky;
+}
+
+h3{
+    color: rgb(189, 134, 13);
+    background: rgba(202, 239, 193, 0.7);
+    padding: 5pt 5pt 5pt 5pt;
+}
