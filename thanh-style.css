@@ -1,0 +1,98 @@
+h3{
+    color: rgb(189, 134, 13);
+    background: rgba(202, 239, 193, 0.7);
+    padding: 5pt 5pt 5pt 5pt;
+}
+
+h1{
+    display: block;
+    color: yellow;
+    text-align: center;
+    text-decoration: green wavy underline;
+    margin: .1em 1ch 1vw 1vh;
+}
+
+body {
+    background: rgba(208, 175, 234, 0.7);
+    margin-top: 2cm;
+    margin-bottom: 20mm;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10mm;
+    padding-right: 10mm;
+    padding-bottom: 10mm;
+    padding-left: 10mm;
+    position: sticky;
+}
+
+h3{
+    color: rgb(189, 134, 13);
+    background: rgba(202, 239, 193, 0.7);
+    padding: 5pt 5pt 5pt 5pt;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+}
+
+button:hover {
+    color: green;
+}
+
+button:active{
+    color:red;
+}
+
+
+.flex-emojis{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
+}
+
+.first{
+    order:3;
+}
+
+.grid-emojis{
+    display: inline-grid;
+    justify-items: end;
+    row-gap: 50px;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.Aa{
+    place-self: center;
+    grid-area: main;
+}
+
+.page-welcome{
+    display: inline-block;
+    background: hsl(0.3turn 70% 50% / .7);
+}
+
+.meeting-theme{
+    border: thick ridge bisque;
+    max-width: fit-content;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thank-vid{
+    border-style: dashed;
+    border-color:bisque;
+    border-width: medium;
+    border-radius: 10px;
+    height: fit-content;
+    width: 700px;
+    margin-left: 100px;
+    position: static;
+}
