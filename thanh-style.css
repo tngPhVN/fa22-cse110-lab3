@@ -59,3 +59,16 @@ button:active{
 .first{
     order:3;
 }
+
+.grid-emojis{
+    display: inline-grid;
+    justify-items: end;
+    row-gap: 50px;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.Aa{
+    place-self: center;
+    grid-area: main;
+}
