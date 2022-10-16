@@ -96,3 +96,30 @@ button:active{
     margin-left: 100px;
     position: static;
 }
+
+@media (max-width: 900px){
+    a[href$=".edu"]{
+        color: purple; 
+    }
+
+    #thank-vid, div > img{
+        display: none; 
+    }
+
+    main a {
+        color: red;
+    }
+
+    hr+p{
+        color: cyan;
+        text-decoration: black dotted underline;
+    }
+
+    h3 ~ ol {
+        color: rgba(214, 16, 184, 0.676);
+    }
+
+    header.page-welcome{
+       display: none;
+    }
+}
