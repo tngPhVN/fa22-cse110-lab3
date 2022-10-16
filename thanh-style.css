@@ -34,3 +34,8 @@ h3{
     background: rgba(202, 239, 193, 0.7);
     padding: 5pt 5pt 5pt 5pt;
 }
+
+footer{
+    text-align: center;
+    margin: auto;
+}
