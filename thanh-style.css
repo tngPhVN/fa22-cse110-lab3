@@ -3,3 +3,11 @@ h3{
     background: rgba(202, 239, 193, 0.7);
     padding: 5pt 5pt 5pt 5pt;
 }
+
+h1{
+    display: block;
+    color: yellow;
+    text-align: center;
+    text-decoration: green wavy underline;
+    margin: .1em 1ch 1vw 1vh;
+}
