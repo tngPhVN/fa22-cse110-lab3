@@ -39,3 +39,11 @@ footer{
     text-align: center;
     margin: auto;
 }
+
+button:hover {
+    color: green;
+}
+
+button:active{
+    color:red;
+}
