@@ -1,3 +1,7 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;;
+}
+
 h3{
     color: rgb(189, 134, 13);
     background: rgba(202, 239, 193, 0.7);
